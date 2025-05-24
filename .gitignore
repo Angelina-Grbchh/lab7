@@ -1,0 +1,15 @@
+# Terraform state
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+.terraform/
+
+# IDE / OS
+*.log
+*.swp
+*.DS_Store
+*.idea/
+.vscode/
+
+# Lambda artifacts (якщо зібрані вручну)
+lambda_function_payload.zip
